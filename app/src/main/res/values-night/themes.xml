@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Same as values/themes.xml: the app is always dark. -->
+    <style name="Theme.SleepTimer" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/midnight</item>
+        <item name="android:colorAccent">@color/lavender</item>
+    </style>
+</resources>

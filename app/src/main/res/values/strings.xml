@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sleep Timer</string>
+
+    <!-- Main screen -->
+    <string name="header_title">🌙 Sleep Timer</string>
+    <string name="greeting_night">Sweet dreams ✨ Let the music fade out.</string>
+    <string name="greeting_day">Time for a nap? 😴</string>
+    <string name="stops_at">Music stops at %1$s</string>
+    <string name="until_clock">until %1$s</string>
+    <string name="start_emoji">Start  💤</string>
+    <string name="extend_emoji">⏰  +5 min</string>
+
+    <string name="start">Start</string>
+    <string name="extend">+5 min</string>
+    <string name="cancel">Cancel</string>
+    <string name="pause_at">Music will pause at %1$s 🎶</string>
+
+    <!-- Notification -->
+    <string name="channel_name">Sleep timer</string>
+    <string name="channel_desc">Shows the time left before music is paused</string>
+    <string name="notif_title">💤 Sleep timer running</string>
+
+    <!-- Tile -->
+    <string name="tile_until">Until %1$s</string>
+
+    <!-- Pause method card -->
+    <string name="pause_method_title">🎧  How music is paused</string>
+    <string name="pause_method_direct">✅ Direct pause is on: when time is up, a Pause command is sent to whatever is playing.</string>
+    <string name="pause_method_fallback">Now using the media Pause key, like the pause button on headphones. For a more reliable pause, allow notification access. It is only used to find the active player: notifications are never read.</string>
+    <string name="grant_access">🔓  Allow notification access</string>
+    <string name="restricted_hint">If the switch is greyed out (\"Restricted setting\"): open App info, tap the ⋮ menu at the top right, choose \"Allow restricted settings\", then try again.</string>
+    <string name="open_app_info">Open app info</string>
+
+    <!-- Quick Settings card -->
+    <string name="qs_title">⚡  Quick Settings tile</string>
+    <string name="qs_desc">Tap the tile to start a timer with your last duration. Tap it again to cancel.</string>
+    <string name="add_tile">Add tile</string>
+</resources>
